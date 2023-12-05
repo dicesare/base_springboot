@@ -17,6 +17,11 @@ public class BaseSpringbootApplication {
 
 }
 
+/**
+ * This class is responsible for initializing the application on startup.
+ * It implements the CommandLineRunner interface to execute the run method
+ * when the application starts.
+ */
 @Component
 class StartupInitializer implements CommandLineRunner {
 
